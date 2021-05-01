@@ -1,0 +1,7 @@
+<ckeditor [editor]="Editor" 
+    [config]="ckConfig" 
+    (ready)="onReady($event)" 
+    (change)="onChange()"
+    (keyup)="keyUp($event)" 
+    [data]="inputValue">
+</ckeditor>
